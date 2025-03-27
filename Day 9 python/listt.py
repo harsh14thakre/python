@@ -44,5 +44,20 @@ l=[10,20,30,80,50]
 
 # print(l.index(30))
 
-l.insert(0,'harsh')
+# l.insert(0,'harsh')
+# print(l)
+
+# print(l.pop())
+
+# l.remove(20)
+# print(l)
+
+
+l.reverse()
+print(l)
+
+l.sort()
+print(l)
+
+l.reverse()
 print(l)
