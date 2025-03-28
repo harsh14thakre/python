@@ -6,12 +6,12 @@
 # ordered collection
 # eg=mylist=[10,20,30,'harsh']
 
-# mylist=[10,20,30,80,50]
+mylist=[10,20,30,80,50]
 # print(mylist.pop())
 # print(len(mylist))
 # print(max(mylist))
 # print(min(mylist))          #require homogeneous collection to compare
-# print(sum(mylist))
+print(sum(mylist))
 # print(id(mylist)) 
 # print(type(mylist))
 # mylist.append('harsh')
@@ -32,7 +32,7 @@
 
 
 
-l=[10,20,30,80,50]
+# l=[10,20,30,80,50]
 
 # print(l.count(10))
 # l1=[1,2,3]
@@ -53,11 +53,11 @@ l=[10,20,30,80,50]
 # print(l)
 
 
-l.reverse()
-print(l)
+# l.reverse()
+# print(l)
 
-l.sort()
-print(l)
+# l.sort()
+# print(l)
 
-l.reverse()
-print(l)
+# l.reverse()
+# print(l)
