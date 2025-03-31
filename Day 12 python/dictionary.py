@@ -49,3 +49,15 @@ d={'name':'Harsh', 'age':37,'Qualification':'M.tech'}
 
 # d.setdefault('greed','M.tech')
 # print(d)
+
+
+d1={'greed': 'Mtech', 'city': 'Bhopal'}
+d.update('name')
+
+d['name']='Rahul'    #Update
+print(d)  
+
+print(d['name'])        #read
+
+d['greed']='M.tech'
+print(d)

@@ -1,5 +1,23 @@
+# Collection of unique elements
+# represented in {} with comma seperated elements
+# Unordered collection
+# indexing not supported
+# Slicing not supported
+# mutable in nature
 
-s1={10,20,30}
+
+s={10,10,30,10,50,60}
+# print(s)
+# print(len(s))
+# print(max(s))
+# print(min(s))
+# print(type(s))
+# print(id(s))
+# print(sum(s))
+
+
+
+# s1={10,20,30}
 # s2={10,20,30}
 
 # print(id(s1),id(s2))
