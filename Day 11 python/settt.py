@@ -6,7 +6,7 @@
 # mutable in nature
 
 
-s={10,10,30,10,50,60}
+# s={10,10,30,10,50,60}
 # print(s)
 # print(len(s))
 # print(max(s))
@@ -14,6 +14,50 @@ s={10,10,30,10,50,60}
 # print(type(s))
 # print(id(s))
 # print(sum(s))
+
+
+s={2,4,6,'Neeraj',3,1,'Raj'}
+# s.add('Rahul')
+# print(s)
+# s.update(5,6,4)   #do not update not iterable
+# print(s)
+
+
+# s.update('kapil','pinku')
+# print(s)
+
+# l1=[10,20,30]
+# l2=[2,4,6]
+# s.update(l1,l2)
+# print(s)
+# print(s.pop()) 
+# print(s)
+# s.remove('Neeraj')
+# print(s)
+# s.remove('neeraj')  #key error
+# print(s)
+# s.discard('raj')
+# print(s)
+# sl=s.copy
+# print(sl)
+# print(id(s),id(sl))
+# s.clear()
+# print(s)
+# x=set()
+# print(x)
+# print(type(x))
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
