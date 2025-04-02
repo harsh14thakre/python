@@ -1,2 +1,1 @@
-s.clear()
-# print(s)
+print(s2.difference(s1))
