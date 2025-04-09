@@ -70,26 +70,69 @@
 
 
 
-#Q=> Check palindrpm of string
-
-
-
 # Q Check no. of digits
 
 # n=int(input("Enter any no."))
 # digit_count=0
-# 
 
 # while(n>0):
 #     n=n//10
-#     digit_count=digit_count+1
+#     digit_count=digit_count+1 
 # print(digit_count)    
 
-n=int(input("Enter any no."))
-digit=3
-sum=0
-while (n>0):
-    x=n%10
-    sum=sum+x**digit
-    n=n//10
-print(sum)    
+# n=int(input("Enter any no."))
+# digit=3
+# sum=0
+# while (n>0):
+#     x=n%10
+#     sum=sum+x**digit
+#     n=n//10
+# print(sum) 
+
+
+# n=int(input("Enter the number :"))
+# x=n
+# m=x
+# count=0
+# sum=0
+# while(n>0):
+#      n=n//10
+#      count+=1
+
+# while(x>0):
+#      y=x%10
+#      sum=sum+y**count
+#      x=x//10
+# print(sum)
+# if(m==sum):
+#      print('Given number {} is armstrong'.format(m))
+# else :
+#      print("not armsttrong")
+
+
+# #  palindrom string-----------------
+# n=input("Enter string : ")
+# start=0
+# end=len(n)-1
+# while(start<end):
+#      if(n[start]==n[end]):
+#           start+=1
+#           end-=1
+    
+# if(start==end):
+#      print("Given String is Pallindrome")
+# else:
+#      print("Not Pallindrome")
+
+
+
+n=int(input("Enter the number :"))
+a=0
+b=1
+print(a,b,end=" ")
+i=3
+while(i<=9):
+    z=a+b
+    print(z,end=" ")
+    a,b=b,z
+    i=i+1
