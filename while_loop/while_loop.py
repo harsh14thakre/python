@@ -126,13 +126,36 @@
 
 
 
+# n=int(input("Enter the number :"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# i=3
+# while(i<=n):
+#     z=a+b
+#     print(z,end=" ")
+#     a,b=b,z
+#     i=i+1
+
+
+# n=int(input("Enter the number :"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# i=1
+# while(i<=(n-2)):
+#     z=a+b
+#     print(z,end=" ")
+#     a,b=b,z
+#     i=i+1
+
+
 n=int(input("Enter the number :"))
 a=0
 b=1
-print(a,b,end=" ")
+z=0
 i=3
-while(i<=9):
+while(z<=n):
     z=a+b
     print(z,end=" ")
     a,b=b,z
-    i=i+1
