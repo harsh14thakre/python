@@ -81,16 +81,27 @@
 # 
 
 
-x=10
-def display():
-    x=20
-    print(x)
-    print(id(x))
-display()    
-print(x)       
+# x=10
+# def display():
+#     x=20
+#     print(x)
+#     print(id(x))
+# display()    
+# print(x)       
 
 # x=10
 # if x:
 #     x=20
 #     print(x)
 #     print(id(x))    
+
+
+x=10
+def dis():
+    x=20
+    print(globals()['x'])
+   
+dis()    
+     
+
+
